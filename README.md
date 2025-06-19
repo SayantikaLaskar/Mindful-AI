@@ -1,70 +1,104 @@
-# Getting Started with Create React App
+# Mindful Chat 🧠💬  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> **Your AI-powered mental wellness companion.**  
+> Built using **React + Vite** and powered by **Gemini API**.
 
-## Available Scripts
+![Mindful Chat UI](https://github.com/SayantikaLaskar/Mindful-AI/blob/main/webimage.png)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🔗 Live Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🌐 **[Try Mindful Chat Live](https://mindful-ai-puce.vercel.app/)**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🧘‍♂️ About the Project
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Mindful Chat** is a mental health AI chatbot designed to be your virtual stress reliever and emotional companion. Whether you're having a tough day or just need to talk, Mindful Chat listens to you, understands your emotions, and responds with empathy.
 
-### `npm run build`
+### ✨ Key Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- 💬 Conversational AI backed by Google’s **Gemini API**  
+- 📁 **Upload files** and talk to the chatbot about them (journals, notes, etc.)  
+- 🤗 Acts as a **virtual friend** to help reduce stress and promote mindfulness  
+- 🧠 AI-generated, thoughtful responses tailored to emotional well-being  
+- 🌐 Fast, lightweight frontend built with **React + Vite**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚀 Getting Started
 
-### `npm run eject`
+### 1. Clone the Repository
+```bash
+git clone https://github.com/your-username/mindful-chat.git
+cd mindful-chat
+````
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 2. Install Dependencies
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 3. Set Up Environment Variables
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Create a `.env` file in the root directory and add your Gemini API key:
 
-## Learn More
+```
+VITE_GEMINI_API_KEY=your_gemini_api_key_here
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 4. Run the App
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+npm run dev
+```
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🛠️ Tech Stack
 
-### Analyzing the Bundle Size
+* **Frontend**: React + Vite
+* **AI Backend**: Gemini API
+* **Styling**: Tailwind CSS
+* **File Upload Handling**: Custom React components
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 📁 Project Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```
+mindful-chat/
+│
+├── public/                # Static assets (add preview.png here)
+├── src/
+│   ├── components/        # React components like ChatBox, FileUploader, etc.
+│   ├── api/               # Gemini API integration logic
+│   ├── App.jsx
+│   └── main.jsx
+├── .env                   # API key configuration
+└── README.md
+```
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 💡 Future Improvements
 
-### Deployment
+* Mood detection via voice or facial analysis
+* Daily mood check-ins
+* Mental health tips based on conversation sentiment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## 🙏 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+---
+
+## 📄 License
+
+[MIT](LICENSE)
+
+
